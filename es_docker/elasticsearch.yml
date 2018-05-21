@@ -12,5 +12,5 @@ discovery.zen.ping.unicast.hosts:
   - es1.laiyijie.me
   - es3.laiyijie.me
 
-node.name: "es1"
+node.name: "es2"
 
