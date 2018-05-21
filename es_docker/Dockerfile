@@ -7,5 +7,5 @@ RUN elasticsearch-plugin install https://github.com/medcl/elasticsearch-analysis
 	elasticsearch-plugin install ingest-attachment  
 	
 COPY --chown=elasticsearch:elasticsearch elasticsearch.yml /usr/share/elasticsearch/config/
-COPY --chown=elasticsearch:elasticsearch jvm.options /usr/share/elasticsearch/config/
+#COPY --chown=elasticsearch:elasticsearch jvm.options /usr/share/elasticsearch/config/
 

@@ -1,4 +1,5 @@
 #!/bin/bash
+set -x
 SCRIPT_PATH=$(dirname $0)
 CURRENT_PATH=$(pwd)
 CURRENT_TIME=$(date +%Y%m%d_%H%M%S)
