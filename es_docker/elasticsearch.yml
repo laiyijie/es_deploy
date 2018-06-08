@@ -7,12 +7,5 @@ network.host: 0.0.0.0
 discovery.zen.minimum_master_nodes: 1
 xpack.security.enabled: false
 #xpack.license.self_generated.type: basic
-discovery.zen.ping.unicast.hosts:
-    # es1
-    - 10.141.8.209
-    # es2
-    - 10.141.47.18
-    # es3
-    - 10.141.139.222
 
 
